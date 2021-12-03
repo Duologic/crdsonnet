@@ -1,5 +1,5 @@
 local gen = import 'github.com/Duologic/crdsonnet/crdsonnet/main.libsonnet';
-local swagger = import 'kubernetes-spec/swagger.json';
+local swagger = import 'swagger.json';
 
 std.foldl(
   function(acc, m)

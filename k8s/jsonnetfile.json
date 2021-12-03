@@ -13,22 +13,22 @@
     {
       "source": {
         "git": {
-          "remote": "https://github.com/kubernetes/kubernetes.git",
-          "subdir": "api/openapi-spec"
-        }
-      },
-      "version": "release-1.23",
-      "name": "kubernetes-spec"
-    },
-    {
-      "source": {
-        "git": {
           "remote": "https://github.com/jsonnet-libs/k8s.git",
           "subdir": "libs/k8s/custom/core"
         }
       },
       "version": "master",
       "name": "k8s-libsonnet-custom"
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/kubernetes/kubernetes.git",
+          "subdir": "api/openapi-spec"
+        }
+      },
+      "version": "release-1.19",
+      "name": "kubernetes-spec"
     }
   ],
   "legacyImports": true
